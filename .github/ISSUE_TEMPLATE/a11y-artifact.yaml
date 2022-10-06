@@ -1,6 +1,6 @@
 name: Pre-Staging Review Accessibility Testing
 description: Complete required Foundational Testing prior to your Staging Review
-title: "[Bug]: [Insert Product Name]"
+title: "[Accessibility Testing]: [Insert Product Name]"
 labels: ["a11y-foundational-testing"]
 assignees:
   - briandeconinck
