@@ -1,0 +1,37 @@
+name: Pre-Staging Review Accessibility Testing
+description: Complete required Foundational Testing prior to your Staging Review
+title: "[Bug]: [Insert Product Name]"
+labels: ["a11y-foundational-testing"]
+assignees:
+  - briandeconinck
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Instructions up here referencing [Platform website testing info](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) and how to get help from Shared Support.
+  - type: markdown
+    attributes:
+      value: |
+        ## Keyboard navigation
+  - type: input
+    id: keyboard-tester
+    attributes:
+      label: Who completed the keyboard navigation test?
+      description: Enter their GitHub username to tag them in this ticket.
+  - type: checkboxes
+    id: keyboard-checks
+    attributes:
+      label: Keyboard navigation checks
+      description: All pages and user flows (forms, data entry, navigation, user interface, etc.) must be navigable using a keyboard. To test keyboard navigation, press [Tab] to move focus to the next element that can receive keyboard focus and [Shift] + [Tab] to move focus to the previous element.
+      options:
+        - label: Each link, button, form input, checkbox, radio button, select menu, and custom element can receive keyboard focus
+        - label: All elements under focus have a visible focus indicator
+        - label: Checkboxes can be checked and unchecked by pressing SPACE when under keyboard focus
+        - label: Radio buttons can be selected by pressing ARROW_DIRECTION when a radio group is under keyboard focus
+        - label: Select menus can be opened by pressing SPACE, and an option selected with arrow keys. Select menus should close when user presses ENTER.
+        - label: Users don't have to press TAB a large number of times to reach elements, or get back to their previous focus
+  - type: textarea
+    id: keyboard-notes
+    attributes:
+      label: Notes, questions, and open issues
+      description: How did testing go? Is there anything you want someone to look at before Staging Review? Reference any new GitHub issues here.
