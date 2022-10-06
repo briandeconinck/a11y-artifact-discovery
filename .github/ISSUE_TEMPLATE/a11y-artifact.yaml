@@ -27,9 +27,6 @@ body:
         - label: Each link, button, form input, checkbox, radio button, select menu, and custom element can receive keyboard focus
         - label: All elements under focus have a visible focus indicator
         - label: The order of [Tab] stops made sense and was appropriate for completing tasks
-        - label: Checkboxes can be checked and unchecked by pressing [Space] when under keyboard focus
-        - label: Radio buttons can be selected by pressing arrow keys when a radio group is under keyboard focus
-        - label: Select menus can be opened by pressing [Space], and an option selected with arrow keys. Select menus should close when user presses [Enter].
   - type: textarea
     id: keyboard-notes
     attributes:
