@@ -22,7 +22,7 @@ body:
     id: keyboard-checks
     attributes:
       label: Keyboard navigation checks
-      description: All pages and user flows (forms, data entry, navigation, user interface, etc.) must be navigable using a keyboard. To test keyboard navigation, press [Tab] to move focus to the next element that can receive keyboard focus and [Shift] + [Tab] to move focus to the previous element.
+      description: All pages and user flows (forms, data entry, navigation, user interface, etc.) must be navigable using a keyboard. To test keyboard navigation, press [Tab] to move focus to the next element that can receive keyboard focus and [Shift] + [Tab] to move focus to the previous element. [Learn more about keyboard navigation testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Keyboard-navigation-check) or [watch a keyboard navigation testing demo](https://www.youtube.com/watch?v=YvPEK1Y08uM).
       options:
         - label: Each link, button, form input, checkbox, radio button, select menu, and custom element can receive keyboard focus
         - label: All elements under focus have a visible focus indicator
