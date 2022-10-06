@@ -26,12 +26,12 @@ body:
       options:
         - label: Each link, button, form input, checkbox, radio button, select menu, and custom element can receive keyboard focus
         - label: All elements under focus have a visible focus indicator
-        - label: Checkboxes can be checked and unchecked by pressing SPACE when under keyboard focus
-        - label: Radio buttons can be selected by pressing ARROW_DIRECTION when a radio group is under keyboard focus
-        - label: Select menus can be opened by pressing SPACE, and an option selected with arrow keys. Select menus should close when user presses ENTER.
-        - label: Users don't have to press TAB a large number of times to reach elements, or get back to their previous focus
+        - label: The order of [Tab] stops made sense and was appropriate for completing tasks
+        - label: Checkboxes can be checked and unchecked by pressing [Space] when under keyboard focus
+        - label: Radio buttons can be selected by pressing arrow keys when a radio group is under keyboard focus
+        - label: Select menus can be opened by pressing [Space], and an option selected with arrow keys. Select menus should close when user presses [Enter].
   - type: textarea
     id: keyboard-notes
     attributes:
       label: Notes, questions, and open issues
-      description: How did testing go? Is there anything you want someone to look at before Staging Review? Reference any new GitHub issues here.
+      description: How did testing go? Is there anything you want someone to look at before Staging Review? Be sure to reference any GitHub issues you've created as a result of this testing!
