@@ -47,11 +47,21 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## Automated testing with axe
+  - type: markdown
+    attributes:
+      value: |
+        ## Content zoom and resizing
+  - type: markdown
+    attributes:
+      value: |
         ## Keyboard navigation
   - type: markdown
     attributes:
       value: |
-        All pages and user flows (forms, data entry, navigation, user interface, etc.) must be navigable using a keyboard. To test keyboard navigation, press [Tab] to move focus to the next element that can receive keyboard focus and [Shift] + [Tab] to move focus to the previous element. [Learn more about keyboard navigation testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Keyboard-navigation-check) or [watch a keyboard navigation testing demo](https://www.youtube.com/watch?v=YvPEK1Y08uM).
+        All pages and user flows (forms, data entry, navigation, user interface, etc.) must be navigable using a keyboard. To test keyboard navigation, press [Tab] to move focus to the next element that can receive keyboard focus and [Shift] + [Tab] to move focus to the previous element.
+        
+        [Learn more about keyboard navigation testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Keyboard-navigation-check) or [watch a keyboard navigation testing demo](https://www.youtube.com/watch?v=YvPEK1Y08uM).
   - type: input
     id: keyboard-tester
     attributes:
@@ -73,7 +83,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Color contrast
+        ## Advanced testing (optional)
   - type: markdown
     attributes:
       value: |
