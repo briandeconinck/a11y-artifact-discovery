@@ -28,7 +28,7 @@ body:
         You may not know how to test for everything, and that's totally okay! Tell us what you're able to do, what you found, and if you have any questions or concerns heading into your review.
         
         ### Why we ask who's doing each test
-        Don't worry! It's not so we can assign blame! We just want to make conversation easier. If we have questions or if we do detect something that you missed, we'd like to use it as an opportunity to talk about it and make your next trip through the Collaboration Cycle easier. But if you're not comfortable sharing who completed the test, we absolutely understand.
+        Don't worry! It's not so we can assign blame! We just want to make conversation easier. If we have questions or if we do detect something that you missed, we'd like to use it as an opportunity to talk about it and make your next trip through the Collaboration Cycle easier. And if you're doing a great job testing, we want to know who to praise! But if you're not comfortable sharing who completed the test, we absolutely understand.
         
         ### Get help
         If you need help completing your accessibility testing, or if you need help resolving issues that you've identified, you can [instructions for contacting Shared Support].
@@ -47,7 +47,7 @@ body:
     id: color-tester
     attributes:
       label: Who completed the use of color and color contrast test?
-      description: Enter their GitHub username to tag them in this ticket.
+      description: Enter their GitHub username(s) to tag them in this ticket.
   - type: checkboxes
     id: color-checks
     attributes:
@@ -88,7 +88,7 @@ body:
     id: axe-tester
     attributes:
       label: Who completed the axe scans?
-      description: Enter their GitHub username to tag them in this ticket.
+      description: Enter their GitHub username(s) to tag them in this ticket.
   - type: checkboxes
     id: axe-checks
     attributes:
@@ -124,7 +124,7 @@ body:
     id: zoom-tester
     attributes:
       label: Who completed the content zoom and resizing test?
-      description: Enter their GitHub username to tag them in this ticket.
+      description: Enter their GitHub username(s) to tag them in this ticket.
   - type: checkboxes
     id: zoom-checks
     attributes:
@@ -152,7 +152,7 @@ body:
     id: keyboard-tester
     attributes:
       label: Who completed the keyboard navigation test?
-      description: Enter their GitHub username to tag them in this ticket.
+      description: Enter their GitHub username(s) to tag them in this ticket.
   - type: checkboxes
     id: keyboard-checks
     attributes:
