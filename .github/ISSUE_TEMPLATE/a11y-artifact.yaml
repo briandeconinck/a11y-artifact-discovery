@@ -111,24 +111,6 @@ body:
   - type: input
     id: keyboard-tester
     attributes:
-      label: Who completed the keyboard navigation testing?
-      description: Enter their GitHub username to tag them in this ticket.
-  - type: checkboxes
-    id: keyboard-checks
-    attributes:
-      label: Keyboard navigation checks
-      options:
-        - label: Each link, button, form input, checkbox, radio button, select menu, and custom element can receive keyboard focus
-        - label: All elements under focus have a visible focus indicator
-        - label: The order of [Tab] stops made sense and was appropriate for completing tasks
-  - type: textarea
-    id: keyboard-notes
-    attributes:
-      label: How did keyboard testing go?
-      description: Do you have any questions or notes? Is there anything you want someone to look at before Staging Review? Be sure to reference any GitHub issues you've created as a result of this testing!
-  - type: input
-    id: keyboard-tester
-    attributes:
       label: Who completed the keyboard navigation test?
       description: Enter their GitHub username to tag them in this ticket.
   - type: checkboxes
