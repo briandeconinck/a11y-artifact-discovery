@@ -16,6 +16,35 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## Use of color and color contrast
+  - type: markdown
+    attributes:
+      value: |
+        Color must not be the only way information is communicated, and all elements must have sufficient contrast against the page background and neighboring elements. Multiple tools exist for testing use of color and color contrast, but we recommend checking color pairings with [WhoCanUse](https://www.whocanuse.com/) and reviewing your product with the [Colorblindly extension for Google Chrome](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg). [Learn more about testing for color and color contrast](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-Colortests) or [watch a color and color contrast testing demo](https://www.youtube.com/watch?v=ReLtfiZlSCo).
+  - type: input
+    id: color-tester
+    attributes:
+      label: Who completed the use of color and color contrast test?
+      description: Enter their GitHub username to tag them in this ticket.
+  - type: checkboxes
+    id: color-checks
+    attributes:
+      label: Use of color and color contrast checks
+      options:
+        - label: All text of 20px or smaller has a 4.5:1 contrast ratio to its background (or better)
+        - label: All text of 20px or larger has a 3:1 contrast ratio to its background (or better)
+        - label: Non-text elements have a 3:1  contrast ratio to their background and to neighboring elements (or better)
+        - label: Color is not the only way to distinguish links from other text (eg. links are underlined)
+        - label: Any charts, maps, infographics, and tables convey all information without only relying on color
+        - label: Content does not refer to color, especially when providing user instructions (eg. "Click the blue button")
+  - type: textarea
+    id: color-notes
+    attributes:
+      label: How did color testing go?
+      description: Do you have any questions or notes? Is there anything you want someone to look at before Staging Review? Be sure to reference any GitHub issues you've created as a result of this testing!
+  - type: markdown
+    attributes:
+      value: |
         ## Keyboard navigation
   - type: markdown
     attributes:
@@ -37,7 +66,7 @@ body:
   - type: textarea
     id: keyboard-notes
     attributes:
-      label: How did it go?
+      label: How did keyboard testing go?
       description: Do you have any questions or notes? Is there anything you want someone to look at before Staging Review? Be sure to reference any GitHub issues you've created as a result of this testing!
   - type: markdown
     attributes:
