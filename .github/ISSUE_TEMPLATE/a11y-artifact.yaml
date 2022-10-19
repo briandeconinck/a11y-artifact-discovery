@@ -20,7 +20,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Color must not be the only way information is communicated, and all elements must have sufficient contrast against the page background and neighboring elements. Multiple tools exist for testing use of color and color contrast, but we recommend checking color pairings with [WhoCanUse](https://www.whocanuse.com/) and reviewing your product with the [Colorblindly extension for Google Chrome](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg). [Learn more about testing for color and color contrast](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-Colortests) or [watch a color and color contrast testing demo](https://www.youtube.com/watch?v=ReLtfiZlSCo).
+        Color must not be the only way information is communicated, and all elements must have sufficient contrast against the page background and neighboring elements. Multiple tools exist for testing use of color and color contrast, but we recommend checking color pairings with [WhoCanUse](https://www.whocanuse.com/) and reviewing your product with the [Colorblindly extension for Google Chrome](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg). 
+
+        [Learn more about testing for color and color contrast](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-Colortests) or [watch a color and color contrast testing demo](https://www.youtube.com/watch?v=ReLtfiZlSCo).
   - type: input
     id: color-tester
     attributes:
