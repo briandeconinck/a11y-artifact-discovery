@@ -12,9 +12,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Instructions up here referencing [Platform website testing info](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) and how to get help from Shared Support.
+        VFS teams are [required to complete accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) prior to bringing their product to Staging Review.
         
-        ### Testing overview
         Foundational testing is **required** prior to Staging Review. Foundational testing can be completed with no prior experience in accessibility (we'll walk you through each part!) and does not require testing with any assistive technology. It consists of four major parts:
         - Use of color and color contrast
         - Automated testing with axe by Deque
@@ -30,6 +29,9 @@ body:
         
         ### Why we ask who's doing each test
         Don't worry! It's not so we can assign blame! We just want to make conversation easier. If we have questions or if we do detect something that you missed, we'd like to use it as an opportunity to talk about it and make your next trip through the Collaboration Cycle easier. But if you're not comfortable sharing who completed the test, we absolutely understand.
+        
+        ### Get help
+        If you need help completing your accessibility testing, or if you need help resolving issues that you've identified, you can [instructions for contacting Shared Support].
         
   - type: markdown
     attributes:
