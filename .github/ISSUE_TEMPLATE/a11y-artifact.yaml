@@ -1,7 +1,7 @@
 name: Pre-Staging Review Accessibility Testing
 description: Complete required Foundational Testing prior to your Staging Review
 title: "Accessibility Testing for [Team Name, Product Name, Feature Name]"
-labels: ["a11y-foundational-testing"]
+labels: ["a11y-testing"]
 assignees:
   - briandeconinck
 body:
@@ -12,18 +12,22 @@ body:
   - type: markdown
     attributes:
       value: |
-        VFS teams are [required to complete accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) prior to bringing their product to Staging Review. Foundational testing is **required** prior to Staging Review. Foundational testing can be completed with no prior experience in accessibility (we'll walk you through each part!) and does not require testing with any assistive technology. Advanced testing is **recommended** but optional prior to Staging Review. Advanced testing involves using a screen reader to navigate through your product, and takes a little more background knowledge about accessibility. Try to do as much as you can!
+        VFS teams are [required to complete accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) prior to bringing their product to Staging Review.   
+        
+        Foundational testing is **required** prior to Staging Review. It can be completed with no prior experience in accessibility (we'll walk you through each part!) and does not require testing with any assistive technology.   
+        
+        Advanced testing is **recommended** but optional prior to Staging Review. It involves using a screen reader to navigate through your product, and takes a little more background knowledge about accessibility.   
+        
+        It's okay if you can't complete all of the steps, or if you identify problems but aren't able to fix them. Try to do as much as you can! Tell us what you're able to do, what you found, and if you have any questions or concerns heading into your review.
         
         ### Why we ask VFS teams to do this
         The more you test before your Staging Review, the less likely we are to find launch-blocking issues! This artifact helps document the testing you've already done and helps organize your conversation with the accessibility specialist completing the Staging Review.
-        
-        You may not know how to test for everything, and that's totally okay! Tell us what you're able to do, what you found, and if you have any questions or concerns heading into your review.
-        
+                
         ### Why we ask who's doing each test
-        We want to be able to sing your praises, not blame or shame! And we want to know who to talk to if we have questions about anything you found when testing.
+        We want to be able to sing your praises, not blame or shame! We also want to know who to talk to if we have questions about anything you found when testing. But if you're not comfortable sharing who did each test, that's totally okay.
         
         ### Get help
-        If you need help completing your accessibility testing, or if you need help resolving issues that you've identified, you can [instructions for contacting Shared Support].
+        If you need help completing your accessibility testing, or if you need help resolving issues that you've identified, you can **[instructions for contacting Shared Support]**.
         
   - type: markdown
     attributes:
@@ -33,7 +37,7 @@ body:
     id: product-info
     attributes:
       label: Product information
-      description: We just want to know who you are and what you're testing!
+      description: Who are you and what are you testing?
       options:
         - label: Team name, product name, and feature name have been added to the title.
           required: true
