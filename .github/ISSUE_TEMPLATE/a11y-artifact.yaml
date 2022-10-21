@@ -1,6 +1,6 @@
 name: Pre-Staging Review Accessibility Testing
 description: Complete required Foundational Testing prior to your Staging Review
-title: "[Accessibility Testing]: [Insert Product Name]"
+title: "Accessibility Testing for [Team Name, Product Name, Feature Name]"
 labels: ["a11y-foundational-testing"]
 assignees:
   - briandeconinck
@@ -33,6 +33,19 @@ body:
         ### Get help
         If you need help completing your accessibility testing, or if you need help resolving issues that you've identified, you can [instructions for contacting Shared Support].
         
+  - type: markdown
+    attributes:
+      value: |
+        ## Product information
+  - type: checkboxes
+    id: product-info
+    attributes:
+      label: The following steps are required for completing this form.
+      options:
+        - label: Team name, product name, and feature name have been added to the title.
+          required: true
+        - label: Product label and feature label (if applicable) have been added to this issue.
+          required: true
   - type: markdown
     attributes:
       value: |
