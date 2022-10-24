@@ -155,9 +155,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        All pages and user flows (forms, data entry, navigation, user interface, etc.) must be navigable using a keyboard. To test keyboard navigation, press [Tab] to move focus to the next element that can receive keyboard focus and [Shift] + [Tab] to move focus to the previous element.
+        All pages and user flows must be navigable using a keyboard, including form controls and inputs, links, buttons, etc. To test keyboard navigation, press [Tab] to move focus to the next element that can receive keyboard focus and [Shift] + [Tab] to move focus to the previous element. [Interactive elements should respond to expected keys.](https://webaim.org/techniques/keyboard/#testing)
         
-        We recommend that designers think about [Tab] order while creating prototypes, and that they annotate their prototypes whenever [Tab] order isn't clear. As the product is coded, front-end engineers should do regular keyboard navigation spot checks, and a comprehensive keyboard navigation test should happen prior to Staging Review.
+        We recommend that designers think about [Tab] order while creating prototypes, and that they annotate their prototypes whenever [Tab] order isn't clear. As the product is coded, front-end engineers should do regular keyboard navigation spot checks and complete a comprehensive test prior to Staging Review.
         
         [Learn more about keyboard navigation testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Keyboard-navigation-check) or [watch a keyboard navigation testing demo](https://www.youtube.com/watch?v=YvPEK1Y08uM).
   - type: input
