@@ -34,7 +34,7 @@ body:
     attributes:
       label: Product information
       options:
-        - label: Team name, product name, and feature name have been added to the title.
+        - label: Team name, product name, and feature name have been added to the title of this issue.
           required: true
         - label: Product label and feature label (if applicable) have been added to this issue.
           required: true
