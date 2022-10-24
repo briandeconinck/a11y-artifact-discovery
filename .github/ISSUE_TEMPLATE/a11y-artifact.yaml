@@ -33,7 +33,6 @@ body:
     id: product-info
     attributes:
       label: Product information
-      description: Who are you and what are you testing?
       options:
         - label: Team name, product name, and feature name have been added to the title.
           required: true
