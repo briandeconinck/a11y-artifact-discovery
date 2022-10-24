@@ -121,8 +121,9 @@ body:
     attributes:
       value: |
         All page elements must be readable and usable at 200%, 300%, and 400% zoom. That means:
-        - Nothing overlaps.
-        - No horizontal scrolling. (There are some exceptions, like certain data tables, charts, and images.)
+        - No functionality has been hidden or removed from the page. (Example: a button that is visible on desktop but hidden on a mobile device will likely be hidden at high zoom.)
+        - Nothing overlaps. (Example: text getting covered up by other elements.)
+        - No horizontal scrolling. (Exceptions: data tables, charts, and images.)
         
         To test content zoom and resizing, set your browser width to 1280 pixels and use `Ctrl +` or `Cmd +` to zoom in to 200%, 300%, and 400%.
         
@@ -139,9 +140,9 @@ body:
     attributes:
       label: Content zoom and reflow checks
       options:
-        - label: All page elements are readable and usable without any horizontal scrolling at 200% zoom 
-        - label: All page elements are readable and usable without any horizontal scrolling at 300% zoom
-        - label: All page elements are readable and usable without any horizontal scrolling at 400% zoom
+        - label: All page elements are readable and usable at 200% zoom 
+        - label: All page elements are readable and usable at 300% zoom
+        - label: All page elements are readable and usable at 400% zoom
   - type: textarea
     id: zoom-notes
     attributes:
