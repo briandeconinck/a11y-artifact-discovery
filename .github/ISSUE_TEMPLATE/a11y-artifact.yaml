@@ -1,5 +1,5 @@
-name: Pre-Staging Review Accessibility Testing
-description: Complete required Foundational Testing prior to your Staging Review
+name: Accessibility Testing
+description: Complete required accessibility prior to your Staging Review
 title: "Accessibility Testing for [Team Name, Product Name, Feature Name]"
 labels: ["a11y-testing"]
 assignees:
