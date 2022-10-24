@@ -17,7 +17,7 @@ body:
         It's okay if you can't complete all of the steps, or if you identify problems but aren't able to fix them. Try to do as much as you can! Tell us what you're able to do, what you found, and if you have any questions or concerns heading into your review.
         
         ### Why we ask VFS teams to do accessibility testing
-        The more you test before your Staging Review, the less likely we are to find launch-blocking issues! This artifact helps document the testing you've already done and helps organize your conversation with the accessibility specialist completing the Staging Review.
+        The more you test before your Staging Review, the less likely we are to find launch-blocking issues. This artifact helps document the testing you've already done and helps organize your conversation with the accessibility specialist completing the Staging Review.
                 
         ### Why we ask who's doing each test
         We want to be able to sing your praises, not blame or shame! We also want to know who to talk to if we have questions about anything you found when testing. But if you're not comfortable sharing who did each test, that's totally okay.
