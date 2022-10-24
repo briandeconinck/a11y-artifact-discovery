@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Introduction
+        ## 1. Introduction
   - type: markdown
     attributes:
       value: |
@@ -25,7 +25,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Before you begin
+        ## 2. Before you begin
   - type: checkboxes
     id: product-info
     attributes:
@@ -38,7 +38,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Use of color and color contrast
+        ## 3. Use of color and color contrast
   - type: markdown
     attributes:
       value: |
@@ -71,7 +71,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Automated testing with axe by Deque
+        ## 4. Automated testing with axe by Deque
   - type: markdown
     attributes:
       value: |
@@ -113,7 +113,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Content zoom and reflow
+        ## 5. Content zoom and reflow
   - type: markdown
     attributes:
       value: |
@@ -148,7 +148,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Keyboard navigation
+        ## 6. Keyboard navigation
   - type: markdown
     attributes:
       value: |
@@ -178,7 +178,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Additional findings
+        ## 7. Additional findings
   - type: textarea
     id: additional-findings
     attributes:
