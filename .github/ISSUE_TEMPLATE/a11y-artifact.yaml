@@ -12,15 +12,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        VFS teams are [required to complete accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) prior to bringing their product to Staging Review.   
-        
-        Foundational testing is **required** prior to Staging Review. It can be completed with no prior experience in accessibility (we'll walk you through each part!) and does not require testing with any assistive technology.   
-        
-        Advanced testing is **recommended** but optional prior to Staging Review. It involves using a screen reader to navigate through your product, and takes a little more background knowledge about accessibility.   
+        VFS teams are [required to complete foundational accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) prior to bringing their product to Staging Review. This issue template will help walk you through foundational testing and will generate a testing artifact you can submit as part of your Staging Review. 
         
         It's okay if you can't complete all of the steps, or if you identify problems but aren't able to fix them. Try to do as much as you can! Tell us what you're able to do, what you found, and if you have any questions or concerns heading into your review.
         
-        ### Why we ask VFS teams to do this
+        ### Why we ask VFS teams to do accessibility testing
         The more you test before your Staging Review, the less likely we are to find launch-blocking issues! This artifact helps document the testing you've already done and helps organize your conversation with the accessibility specialist completing the Staging Review.
                 
         ### Why we ask who's doing each test
