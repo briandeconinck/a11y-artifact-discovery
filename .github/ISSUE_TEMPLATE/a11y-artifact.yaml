@@ -181,4 +181,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Basic mobile testing
+        ## Additional findings
+  - type: textarea
+    id: additional-findings
+    attributes:
+      label: Do you have any other results to share?
+      description: If you've tested using screen readers, mobile devices, or any other tools, tell us about any issues that you've identified!
