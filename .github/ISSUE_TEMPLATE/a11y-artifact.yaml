@@ -78,7 +78,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        [axe by Deque Systems](https://www.deque.com/axe/) is our required automated testing tool, and is also available as a [free browser extension for Chrome, Firefox, and Edge](https://www.deque.com/axe/browser-extensions/). Although automated testing can't detect all accessibility issues, axe is very good at detecting certain common problems in your code.
+        [axe by Deque Systems](https://www.deque.com/axe/) is our required automated testing tool, and is available as a [free browser extension for Chrome, Firefox, and Edge](https://www.deque.com/axe/browser-extensions/). Although automated testing can't detect all accessibility issues, axe is very good at detecting certain common problems in your code.
         
         With the axe DevTools browser extension installed:
         1. Right click on the page you're testing.
@@ -181,11 +181,3 @@ body:
     attributes:
       value: |
         ## Basic mobile testing
-  - type: markdown
-    attributes:
-      value: |
-        ## Advanced testing (optional)
-  - type: markdown
-    attributes:
-      value: |
-        ... and so on.
