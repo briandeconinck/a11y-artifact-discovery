@@ -124,7 +124,7 @@ body:
         - Nothing overlaps.
         - No horizontal scrolling. (There are some exceptions, like certain data tables, charts, and images.)
         
-        To test content zoom and resizing, set your browser width to 1280 pixels and use `Ctrl` + `+` or `Cmd` + `+` to zoom in to 200%, 300%, and 400%.
+        To test content zoom and resizing, set your browser width to 1280 pixels and use `Ctrl +` or `Cmd +` to zoom in to 200%, 300%, and 400%.
         
         We recommend that designers think about how content will resize and reflow in high-zoom situations prior to handing off to engineers. High-fidelity prototypes at high zoom aren't required, but designers may want to create low-fi wireframes for complex page layouts. Once coded, content zoom and reflow should be tested prior to Staging Review.
         
