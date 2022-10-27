@@ -12,7 +12,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        VFS teams are [required to complete foundational accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) prior to bringing their product to Staging review. This issue template will help walk you through foundational testing and will generate a testing artifact you can submit as part of your Staging review.
+        VFS teams are [required to complete foundational accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) prior to bringing their product to Staging review. This issue template will help walk you through foundational testing and will generate a testing artifact you can submit as part of your Staging review. Try to resolve as many issues as you're able to before your Staging review, and update this artifact with that progress. Anything you're not able to resolve on your own can be discussed as part of the Staging review.
         
         It's okay if you can't complete all of the steps, or if you identify problems but aren't able to fix them. Try to do as much as you can. Tell us what you're able to do, what you found, and if you have any questions or concerns heading into your review.
         
@@ -21,7 +21,6 @@ body:
                 
         ### Why we ask who's doing each test
         We want to be able to sing your praises, not blame or shame. We also want to know who to talk to if we have questions about anything you found when testing. But if you're not comfortable sharing who did each test, that's totally okay.
-                
   - type: markdown
     attributes:
       value: |
