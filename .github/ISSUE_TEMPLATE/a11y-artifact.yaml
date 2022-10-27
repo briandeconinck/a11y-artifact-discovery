@@ -12,12 +12,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        VFS teams are [required to complete foundational accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) prior to bringing their product to Staging Review. This issue template will help walk you through foundational testing and will generate a testing artifact you can submit as part of your Staging Review. 
+        VFS teams are [required to complete foundational accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) prior to bringing their product to Staging Review. This issue template will help walk you through foundational testing and will generate a testing artifact you can submit as part of your Staging Review.
         
         It's okay if you can't complete all of the steps, or if you identify problems but aren't able to fix them. Try to do as much as you can! Tell us what you're able to do, what you found, and if you have any questions or concerns heading into your review.
         
         ### Why we ask VFS teams to do accessibility testing
-        The more you test before your Staging Review, the less likely we are to find launch-blocking issues. This artifact helps document the testing you've already done and helps organize your conversation with the accessibility specialist completing the Staging Review.
+        The more you test and fix issues before your Staging Review, the less likely we are to find launch-blocking issues. This artifact helps document the testing you've already done and helps organize your conversation with the accessibility specialist completing the Staging Review.
                 
         ### Why we ask who's doing each test
         We want to be able to sing your praises, not blame or shame! We also want to know who to talk to if we have questions about anything you found when testing. But if you're not comfortable sharing who did each test, that's totally okay.
@@ -184,4 +184,4 @@ body:
     id: additional-findings
     attributes:
       label: Do you have any other results to share?
-      description: If you've tested using screen readers, mobile devices, or any other tools, tell us about any issues that you've identified!
+      description: If you've tested using screen readers, mobile devices, or any other tools, tell us about any issues that you've identified! See the information about [advanced accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-Advancedaccessibilitytests(recommended)) on Platform website.
