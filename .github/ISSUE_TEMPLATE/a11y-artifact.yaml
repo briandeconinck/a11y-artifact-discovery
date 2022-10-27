@@ -1,5 +1,5 @@
 name: Accessibility Testing
-description: Complete required accessibility testing prior to your Staging Review.
+description: Complete required accessibility testing prior to your Staging review.
 title: "Accessibility Testing for [Team Name, Product Name, Feature Name]"
 labels: ["a11y-testing"]
 assignees:
@@ -12,15 +12,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        VFS teams are [required to complete foundational accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) prior to bringing their product to Staging Review. This issue template will help walk you through foundational testing and will generate a testing artifact you can submit as part of your Staging Review.
+        VFS teams are [required to complete foundational accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review) prior to bringing their product to Staging review. This issue template will help walk you through foundational testing and will generate a testing artifact you can submit as part of your Staging review.
         
-        It's okay if you can't complete all of the steps, or if you identify problems but aren't able to fix them. Try to do as much as you can! Tell us what you're able to do, what you found, and if you have any questions or concerns heading into your review.
+        It's okay if you can't complete all of the steps, or if you identify problems but aren't able to fix them. Try to do as much as you can. Tell us what you're able to do, what you found, and if you have any questions or concerns heading into your review.
         
         ### Why we ask VFS teams to do accessibility testing
-        The more you test and fix issues before your Staging Review, the less likely we are to find launch-blocking issues. This artifact helps document the testing you've already done and helps organize your conversation with the accessibility specialist completing the Staging Review.
+        The more you test and fix issues before your Staging review, the less likely we are to find launch-blocking issues. This artifact helps document the testing you've already done and helps organize your conversation with the accessibility specialist completing the Staging review.
                 
         ### Why we ask who's doing each test
-        We want to be able to sing your praises, not blame or shame! We also want to know who to talk to if we have questions about anything you found when testing. But if you're not comfortable sharing who did each test, that's totally okay.
+        We want to be able to sing your praises, not blame or shame. We also want to know who to talk to if we have questions about anything you found when testing. But if you're not comfortable sharing who did each test, that's totally okay.
                 
   - type: markdown
     attributes:
@@ -44,7 +44,7 @@ body:
       value: |
         Color must not be the only way information is communicated, and all elements must have sufficient contrast against the page background and neighboring elements. Multiple tools exist for testing use of color and color contrast, but we recommend checking color pairings with [WhoCanUse](https://www.whocanuse.com/) and reviewing your product with the [Colorblindly extension for Google Chrome](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg). 
         
-        We recommend that designers make accessible color choices before any code is written, and then double-check colors prior to Staging Review.
+        We recommend that designers make accessible color choices before any code is written, and then double-check colors prior to Staging review.
 
         [Learn more about testing for color and color contrast](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-Colortests) or [watch a color and color contrast testing demo](https://www.youtube.com/watch?v=ReLtfiZlSCo).
   - type: input
@@ -67,7 +67,7 @@ body:
     id: color-notes
     attributes:
       label: How did color testing go?
-      description: Do you have any questions or notes? Is there anything you want someone to look at before Staging Review? Be sure to reference any GitHub issues you've created as a result of this testing!
+      description: Do you have any questions or notes? Is there anything you want someone to look at before Staging review? Be sure to reference any GitHub issues you've created as a result of this testing.
   - type: markdown
     attributes:
       value: |
@@ -83,7 +83,7 @@ body:
         3. Select the "axe DevTools" tab.
         4. Select "Scan all of my page" to run axe.
         
-        We recommend that front-end engineers test using axe as part of their daily development to catch and resolve issues while coding, and then complete a comprehensive page-by-page scan prior to Staging Review.
+        We recommend that front-end engineers test using axe as part of their daily development to catch and resolve issues while coding, and then complete a comprehensive page-by-page scan prior to Staging review.
         
         [Learn more about testing with axe](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-Axescansindailydevelopment.1) or [watch an axe DevTools demo](https://www.youtube.com/watch?v=WOBTHDDTytg).
         
@@ -109,7 +109,7 @@ body:
     id: axe-notes
     attributes:
       label: How did axe testing go?
-      description: Do you have any questions or notes? Is there anything you want someone to look at before Staging Review? Be sure to reference any GitHub issues you've created as a result of this testing!
+      description: Do you have any questions or notes? Is there anything you want someone to look at before Staging review? Be sure to reference any GitHub issues you've created as a result of this testing.
   - type: markdown
     attributes:
       value: |
@@ -124,7 +124,7 @@ body:
         
         To test content zoom and resizing, set your browser width to 1280 pixels and use `Ctrl +` or `Cmd +` to zoom in to 200%, 300%, and 400%.
         
-        We recommend that designers think about how content will resize and reflow in high-zoom situations prior to handing off to engineers. High-fidelity prototypes at high zoom aren't required, but designers may want to create low-fi wireframes for complex page layouts. Once coded, content zoom and reflow should be tested prior to Staging Review.
+        We recommend that designers think about how content will resize and reflow in high-zoom situations prior to handing off to engineers. High-fidelity prototypes at high zoom aren't required, but designers may want to create low-fi wireframes for complex page layouts. Once coded, content zoom and reflow should be tested prior to Staging review.
         
         [Learn more about testing content zoom and reflow](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-Contentresizecheck) or [watch a content zoom and resizing demo](https://www.youtube.com/watch?v=cO6wJK2Mp5U).
   - type: input
@@ -144,7 +144,7 @@ body:
     id: zoom-notes
     attributes:
       label: How did content zoom and reflow testing go?
-      description: Do you have any questions or notes? Is there anything you want someone to look at before Staging Review? Be sure to reference any GitHub issues you've created as a result of this testing!
+      description: Do you have any questions or notes? Is there anything you want someone to look at before Staging review? Be sure to reference any GitHub issues you've created as a result of this testing.
   - type: markdown
     attributes:
       value: |
@@ -154,7 +154,7 @@ body:
       value: |
         All pages and user flows must be navigable using a keyboard, including form controls and inputs, links, buttons, etc. To test keyboard navigation, press [Tab] to move focus to the next element that can receive keyboard focus and [Shift] + [Tab] to move focus to the previous element. Interactive elements should respond to [expected keys for that type of element](https://webaim.org/techniques/keyboard/#testing).
         
-        We recommend that designers think about [Tab] order while creating prototypes, and that they annotate their prototypes whenever [Tab] order isn't clear. As the product is coded, front-end engineers should do regular keyboard navigation spot checks and complete a comprehensive test prior to Staging Review.
+        We recommend that designers think about [Tab] order while creating prototypes, and that they annotate their prototypes whenever [Tab] order isn't clear. As the product is coded, front-end engineers should do regular keyboard navigation spot checks and complete a comprehensive test prior to Staging review.
         
         [Learn more about keyboard navigation testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Keyboard-navigation-check) or [watch a keyboard navigation testing demo](https://www.youtube.com/watch?v=YvPEK1Y08uM).
   - type: input
@@ -175,7 +175,7 @@ body:
     id: keyboard-notes
     attributes:
       label: How did keyboard testing go?
-      description: Do you have any questions or notes? Is there anything you want someone to look at before Staging Review? Be sure to reference any GitHub issues you've created as a result of this testing!
+      description: Do you have any questions or notes? Is there anything you want someone to look at before Staging review? Be sure to reference any GitHub issues you've created as a result of this testing.
   - type: markdown
     attributes:
       value: |
@@ -184,4 +184,4 @@ body:
     id: additional-findings
     attributes:
       label: Do you have any other results to share?
-      description: If you've tested using screen readers, mobile devices, or any other tools, tell us about any issues that you've identified! See the information about [advanced accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-Advancedaccessibilitytests(recommended)) on Platform website.
+      description: If you've tested using screen readers, mobile devices, or any other tools, tell us about any issues that you've identified. See the information about [advanced accessibility testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-Advancedaccessibilitytests(recommended)) on Platform website.
